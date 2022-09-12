@@ -1,0 +1,49 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Slabo 27px', serif;
+}
+
+.header {
+  font-family: 'Slabo 27px', serif;
+  display: flex;
+  justify-content: space-around;
+  color: #0f65ef;
+  font-size:27px;
+}
+
+.logo {
+  width: 100px;
+}
+
+.cover{
+  text-align: center;
+}
+
+a {
+  color: #0f65ef;
+  font-weight: bold;
+}
+
+.coverPhoto {
+  width: 100%;
+}
+
+.displayResult{
+  text-align: center;
+}
+
+img{
+  width: 100%;
+}
+
+button {
+  margin-top: 10px;
+  color: white;
+  background-color: #eb2642;
+  font-size: 40px;
+  border-radius: 25px;
+  border:3px groove black;
+  font-family: monospace;
+  padding: 20px;
+}
