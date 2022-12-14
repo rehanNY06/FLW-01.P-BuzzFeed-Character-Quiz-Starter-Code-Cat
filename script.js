@@ -110,7 +110,7 @@ else if (totalScore > 4 && totalScore <= 7)
 {
       result = "Ginger Taby Cat";
       imgSrc = "images/taby cat.jpeg"
-      display.innerHTML = `<h2>You certainly are a ${result}!</h2></br><img src="${imgSrc}">`;
+      displayResult.innerHTML = `<h2>You certainly are a ${result}!</h2></br><img src="${imgSrc}">`;
 } 
 else if (totalScore >= 1 && totalScore <= 4) 
 {
